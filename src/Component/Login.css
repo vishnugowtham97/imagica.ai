@@ -1,0 +1,167 @@
+.video-container {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  overflow: visible;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.StudiosSignUp_logo-box__07ucM {
+  margin-top: 0 auto;
+  padding: 20px 7.473958333333333vw 5vh;
+  position: relative;
+}
+
+.StudiosSignUp_logo-box__07ucM img {
+  max-width: 50%;
+  height: auto;
+}
+
+.login-container {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 400px;
+  background-color: #ececec57;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.imagica-login-head {
+  text-align: left;
+  color: lightslategray;
+  line-height: 25px;
+
+  margin-bottom: 5px;
+}
+
+.inputbox {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.inputbox ion-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.inputbox input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+
+.inputbox label {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: gray;
+}
+
+.forget {
+  margin-bottom: 50px;
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: center; */
+  /* color: white; */
+  text-align: left;
+}
+
+.forget label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.forget a {
+  color: black;
+  text-align: left;
+  text-decoration: none;
+}
+
+.forget a:hover {
+  text-decoration: underline;
+}
+
+.login-pagebtn {
+  width: 80%;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: small;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.login-pagebtn:hover {
+  background-color: #45a049;
+}
+
+.or {
+  color: black;
+}
+
+.register {
+  color: black;
+  margin-top: 25px;
+  font-size: small;
+}
+
+.register a {
+  color: grey;
+  text-decoration: none;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
+.google-btn {
+  margin-top: 10px;
+  width: 80%;
+  padding: 5px;
+  font-size: small;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #4285f4;
+  margin-left: 45px;
+  margin-bottom: 10px;
+}
+.google-btn > img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.google-btn:hover {
+  background-color: #357ae8;
+}
+
+.sign-para {
+  color: black;
+  font-size: 10px;
+}
