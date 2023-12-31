@@ -71,8 +71,8 @@ button {
     top: 10%;
     transition: all 0.5s ease-in-out;
     width: 100%;
-    z-index: 1;
-    background-color: transparent;
+    z-index: 100;
+    background-color: white;
   }
   ul li {
     padding: 32px;

@@ -8,6 +8,7 @@ import Mission from "./Component/Mission";
 import Company from "./Component/Company";
 import Works from "./Component/Works";
 import Product from "./Component/Product";
+import Features from "./Component/Features";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="login" element={<Login />} />
+        <Route path="features" element={<Features />} />
         <Route path="project" element={<Product />} />
         <Route path="works" element={<Works />} />
         <Route path="mission" element={<Mission />} />
